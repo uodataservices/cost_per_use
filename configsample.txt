@@ -1,0 +1,14 @@
+# to use this config file, add your secrets and change the name of this file to config.ini
+# be sure that config.ini is listed in your .gitignore file (if you are tracking changes using git and syncing to a GitHub or GitLab repository that is not managed locally/by internal IT)
+
+[Alma API Variables]
+url = 
+api_key = 
+counter_5_path = 
+cost_path = 
+
+# key=value
+# spaces in keys=allowed
+# spaces in values=allowed as well
+# spaces around the delimiter = obviously
+# you can also use : to delimit keys from values
