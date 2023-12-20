@@ -4,7 +4,7 @@ This repository includes two things:
    2. Code and documentation for the Python query to Alma API that we originally built separately from Power BI in order to enable testing and troubleshooting.
 
 ## Power BI Template
-- The Power BI template (.pbit) is a zipped/compressed file folder consisting of several underlying code files. If you would prefer to explore the underlying data, you can unzip it and open the files as plain text in your IDE/text reader of choice.
+- The Power BI template (.pbit) is a zipped/compressed file folder consisting of several underlying code files. If you would prefer to explore the underlying data, you can unzip it and open the files as plain text in your IDE/text reader of choice. The DataModelSchema is a json file that contains information about the final tables. For information on extracting the Power Query (M) code without using Power BI, see https://querypower.com/2017/03/22/extracting-power-queries-in-m/.
 - If you would like to read the .pbit file in Power BI, note that it will ask you for four parameters before it will allow you to open the file. If you have Alma reports already configured and access to an Alma API key, feel free to enter those. However, you can also just enter "test" into all of the parameter fields. The resulting template will display many loud error codes, but you will still be able to explore the data structure and see all of the data cleaning and processing steps we made.
 - Note that code for our project can be found in two places:
     1. in Power Query, which you can access by selecting "Transform Data" from the main menu, and
