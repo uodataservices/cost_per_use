@@ -12,7 +12,7 @@ This repository includes two things:
 
 
 ## Managing Secrets
-Secrets are manage in a config.ini file that is kept only in our local repositories and listed in our .gitignore file. See configsample.txt for instructions on how to build your config.ini file.
+Secrets are managed in a config.ini file that is kept only in our local repositories and listed in our .gitignore file. See configsample.txt for instructions on how to build your config.ini file.
 
 The initial commit didn't include the Jupyter Notebook that the code started with, because the Notebook output sometimes includes urls (and therefore secrets). In case we want to use Jupyter Notebooks in the future, we have added some checks to make sure that only notebooks whose output has been cleared will be added to the repository. We are following the instructions here: https://www.julianklug.com/posts/jupyter-notebook-leak, which include a suggestion to add the GitHub Action Workflow at https://github.com/marketplace/actions/ensure-clean-jupyter-notebooks that is included with this repository.
 
