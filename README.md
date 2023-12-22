@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/733708191.svg)](https://zenodo.org/doi/10.5281/zenodo.10426230)
+
 # Cost Per Use Project
 This repository is associated with a project UO Libraries to build a Cost Per Use dashboard in Power BI. Kristin Buxton, Lydia Harlan, and Gabriele Hayden are project authors. This project involves automating a pathway to ingest, store, and visualize cost per use data for continuing resources. Our associated paper presents a pipeline for using Alma, SUSHI, COUNTER5, Python, and Power BI to create a tool for data-driven decision making. By establishing this pipeline, we shift the time investment from manually harvesting usage statistics to interpreting the data and sharing it with stakeholders. The resulting visualizations and collected data will assist in making informed, collaborative decisions.  
 
