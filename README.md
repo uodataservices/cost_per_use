@@ -15,8 +15,8 @@ This repository includes two things:
 ## Python Code Templates
 There are three python files in the `code` folder, which we include here in order to allow you to troubleshoot your Python API queries separately from your use of the entire Power BI template:
 
-1. One is a template for writing a version-controlled python query that uses a `config.ini` file kept only in our local repositories and listed in our `.gitignore` file. See `configsample.txt` for instructions on how to built your own `config.ini` file. This is written expecting to write data into a data folder, as in our structure in this repository.
-2. Two are hard-coded files with our paths, report names, and API key removed. These are also written expecting to write data into a data folder, as in our structure in this repository.
+1. `alma_api_use_query_using_config.py` is a template for writing a version-controlled python query that uses a `config.ini` file kept only in our local repositories and listed in our `.gitignore` file. See `configsample.txt` for instructions on how to built your own `config.ini` file. This is written expecting to write data into a data folder, as in our structure in this repository.
+2. `alma_api_cost_query_hard_coded_secrets_removed.py` and `alma_api_use_query_hard_coded_secrets_removed.py` are hard-coded versions of Python queries to our Cost and Use reports in Alma with our paths, report names, and API key removed. These are also written expecting to write data into a data folder, as in our structure in this repository.
    
 If you upload this query to Power BI, we recommend that you remove any commands to save dataframes to files (these commands will likely be ignored in any case). It is our understanding that Power BI will recognize any dataframes created in a Python script even if they are not returned or printed by the script. However, we wrote the final, Power BI version of our code following a template that ended with a `print(df)` command at the very end.
 
