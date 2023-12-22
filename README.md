@@ -12,7 +12,6 @@ This repository includes two things:
 
 ## Python Code Templates
 There are three python files in the `code` folder, which we include her in order to allow you to troubleshoot your Python API queries separately from your use of the entire Power BI template:
-
     1. One is a template for writing a version-controlled python query that uses a `config.ini` file kept only in our local repositories and listed in our `.gitignore` file. See `configsample.txt` for instructions on how to built your own `config.ini` file. This is written expecting to write data into a data folder, as in our structure in this repository.
     2. Two are hard-coded files with our paths, report names, and API key removed. These are written expecting to write data into a data folder, as in our structure in this repository.
     
